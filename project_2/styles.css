@@ -1,0 +1,20 @@
+h1, h2 {
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin: 0 65px 53px 65px;
+}
+
+.headline {
+    height: 50px;
+    margin-top: 96px;
+    margin-bottom: 50px;
+}
+
+img, ol, ul {
+    margin: 0 65px 50px 65px;
+}
+
+p {
+    margin: 0 72px 50px 65px;
+}
