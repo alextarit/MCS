@@ -53,7 +53,7 @@
     padding: 90px;
 }
 
-.mail-form {
+.page-form {
     width: 300px;
     height: 360px;
     background-color: #F8BFC7;
@@ -76,7 +76,20 @@
 .form-row input[type="email"] {
     width: 100%;
     background-color: #F8BFC7;
+    border: none;
     border-bottom: 1px solid #FFF;
     font-size: 20px;
     color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-row button {
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FFF;
+    background-color: #FEB700;
+    border: 3px solid #FFF;
+    border-radius: 30px;
+    padding: 20px 30px;
+    cursor: pointer;
 }
