@@ -1,0 +1,29 @@
+header {
+
+    h1,
+    h2 {
+        color: #0d0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+
+        span {
+            color: #ccc;
+        }
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    > {
+        time {
+            color: aqua;
+        }
+
+        span {
+            font-size: 0.8rem;
+        }
+    }
+}
