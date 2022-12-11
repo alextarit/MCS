@@ -1,0 +1,26 @@
+section {
+  border: 1px solid black;
+}
+
+section {
+  min-width: 1px;
+  border: 1px solid black;
+}
+
+body {
+  background-color: rgba(255, 122, 230, 0.6);
+}
+
+article {
+  min-width: 200.5px;
+}
+
+article {
+  font-family: "Helvetica Neue";
+  background-color: url("/images/background.png");
+}
+
+article {
+  border: 1px solid black;
+  -ms-flex: 1;
+}

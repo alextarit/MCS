@@ -17,7 +17,7 @@ header {
         font-size: 1.3rem;
     }
 
-    > {
+    & > {
         time {
             color: aqua;
         }
@@ -25,5 +25,30 @@ header {
         span {
             font-size: 0.8rem;
         }
+    }
+}
+
+.blog-post {
+    padding: 2em 0;
+    & &_header {
+        padding: 1em 0;
+    }
+}
+
+a {
+    &:link {
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: purple;
+    }
+
+    &:active {
+        color: rebeccapurple;
+    }
+
+    &:visited {
+        color: blue;
     }
 }

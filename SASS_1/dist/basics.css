@@ -1,0 +1,39 @@
+header h1,
+header h2 {
+  color: #0d0;
+}
+header h1 {
+  font-size: 1.5rem;
+}
+header h1 span {
+  color: #ccc;
+}
+header h2 {
+  font-size: 1.3rem;
+}
+header > time {
+  color: aqua;
+}
+header > span {
+  font-size: 0.8rem;
+}
+
+.blog-post {
+  padding: 2em 0;
+}
+.blog-post .blog-post_header {
+  padding: 1em 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+}
+a:active {
+  color: rebeccapurple;
+}
+a:visited {
+  color: blue;
+}
