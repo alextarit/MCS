@@ -1,0 +1,10 @@
+@use 'framework';
+
+body {
+    color: framework.$color;
+}
+
+footer {
+    @include framework.border;
+    @include framework.paddings;
+}
