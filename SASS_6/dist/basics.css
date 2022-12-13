@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.element-20px {
+  min-width: 20px;
+}
+
+.element-50px {
+  min-width: 50px;
+}
+
+.element-100px {
+  min-width: 100px;
+}
+
+.element-150px {
+  min-width: 150px;
+}
+
+.messages-info {
+  background-color: blue;
+}
+
+.messages-alert {
+  background-color: red;
+}
+
+/* Директива if 
+
+@mixin paddings($x_status: "nullify") {
+    padding-left: 0;
+    padding-right: 0;
+    @if $x_status == "nullify" {
+        padding-top: 0;
+        padding-bottom: 0;
+    } @else if $x_status == "single" {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    } @else {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+body {
+    @include paddings("single");
+}
+
+*/
